@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D4817EC1A80950300CFF47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4817EB1A80950300CFF47A /* main.m */; };
+		4D4817EF1A80950300CFF47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4817EE1A80950300CFF47A /* AppDelegate.m */; };
+		4D4817F21A80950300CFF47A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4817F11A80950300CFF47A /* RootViewController.m */; };
+		4D4817F51A80950300CFF47A /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4817F41A80950300CFF47A /* DataViewController.m */; };
+		4D4817F81A80950300CFF47A /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4817F71A80950300CFF47A /* ModelController.m */; };
+		4D4817FB1A80950300CFF47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4817F91A80950300CFF47A /* Main.storyboard */; };
+		4D4817FD1A80950300CFF47A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4817FC1A80950300CFF47A /* Images.xcassets */; };
+		4D4818001A80950300CFF47A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4817FE1A80950300CFF47A /* LaunchScreen.xib */; };
+		4D48180C1A80950300CFF47A /* PetWatchCameraObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48180B1A80950300CFF47A /* PetWatchCameraObjCTests.m */; };
+		4D4818161A80951F00CFF47A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4818151A80951F00CFF47A /* AVFoundation.framework */; };
+		4D4818191A8095F400CFF47A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4818181A8095F400CFF47A /* CoreMedia.framework */; };
+		4D48181B1A8095F900CFF47A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48181A1A8095F900CFF47A /* CoreVideo.framework */; };
+		4D48181E1A809D6A00CFF47A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48181D1A809D6A00CFF47A /* ImageIO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D4818061A80950300CFF47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D4817DE1A80950200CFF47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D4817E51A80950200CFF47A;
+			remoteInfo = PetWatchCameraObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D4817E61A80950200CFF47A /* PetWatchCameraObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetWatchCameraObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4817EA1A80950300CFF47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D4817EB1A80950300CFF47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D4817ED1A80950300CFF47A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D4817EE1A80950300CFF47A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D4817F01A80950300CFF47A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4D4817F11A80950300CFF47A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4D4817F31A80950300CFF47A /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		4D4817F41A80950300CFF47A /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		4D4817F61A80950300CFF47A /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		4D4817F71A80950300CFF47A /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		4D4817FA1A80950300CFF47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D4817FC1A80950300CFF47A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D4817FF1A80950300CFF47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4D4818051A80950300CFF47A /* PetWatchCameraObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetWatchCameraObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D48180A1A80950300CFF47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D48180B1A80950300CFF47A /* PetWatchCameraObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetWatchCameraObjCTests.m; sourceTree = "<group>"; };
+		4D4818151A80951F00CFF47A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4D4818181A8095F400CFF47A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4D48181A1A8095F900CFF47A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4D48181D1A809D6A00CFF47A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D4817E31A80950200CFF47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4818161A80951F00CFF47A /* AVFoundation.framework in Frameworks */,
+				4D4818191A8095F400CFF47A /* CoreMedia.framework in Frameworks */,
+				4D48181B1A8095F900CFF47A /* CoreVideo.framework in Frameworks */,
+				4D48181E1A809D6A00CFF47A /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4818021A80950300CFF47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D4817DD1A80950200CFF47A = {
+			isa = PBXGroup;
+			children = (
+				4D4817E81A80950200CFF47A /* PetWatchCameraObjC */,
+				4D48181C1A80960D00CFF47A /* Frameworks */,
+				4D4818081A80950300CFF47A /* PetWatchCameraObjCTests */,
+				4D4817E71A80950200CFF47A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D4817E71A80950200CFF47A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D4817E61A80950200CFF47A /* PetWatchCameraObjC.app */,
+				4D4818051A80950300CFF47A /* PetWatchCameraObjCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D4817E81A80950200CFF47A /* PetWatchCameraObjC */ = {
+			isa = PBXGroup;
+			children = (
+				4D4817ED1A80950300CFF47A /* AppDelegate.h */,
+				4D4817EE1A80950300CFF47A /* AppDelegate.m */,
+				4D4817F01A80950300CFF47A /* RootViewController.h */,
+				4D4817F11A80950300CFF47A /* RootViewController.m */,
+				4D4817F31A80950300CFF47A /* DataViewController.h */,
+				4D4817F41A80950300CFF47A /* DataViewController.m */,
+				4D4817F61A80950300CFF47A /* ModelController.h */,
+				4D4817F71A80950300CFF47A /* ModelController.m */,
+				4D4817F91A80950300CFF47A /* Main.storyboard */,
+				4D4817FC1A80950300CFF47A /* Images.xcassets */,
+				4D4817FE1A80950300CFF47A /* LaunchScreen.xib */,
+				4D4817E91A80950300CFF47A /* Supporting Files */,
+			);
+			path = PetWatchCameraObjC;
+			sourceTree = "<group>";
+		};
+		4D4817E91A80950300CFF47A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D4817EA1A80950300CFF47A /* Info.plist */,
+				4D4817EB1A80950300CFF47A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D4818081A80950300CFF47A /* PetWatchCameraObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D48180B1A80950300CFF47A /* PetWatchCameraObjCTests.m */,
+				4D4818091A80950300CFF47A /* Supporting Files */,
+			);
+			path = PetWatchCameraObjCTests;
+			sourceTree = "<group>";
+		};
+		4D4818091A80950300CFF47A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D48180A1A80950300CFF47A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D48181C1A80960D00CFF47A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D48181D1A809D6A00CFF47A /* ImageIO.framework */,
+				4D4818151A80951F00CFF47A /* AVFoundation.framework */,
+				4D4818181A8095F400CFF47A /* CoreMedia.framework */,
+				4D48181A1A8095F900CFF47A /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D4817E51A80950200CFF47A /* PetWatchCameraObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D48180F1A80950300CFF47A /* Build configuration list for PBXNativeTarget "PetWatchCameraObjC" */;
+			buildPhases = (
+				4D4817E21A80950200CFF47A /* Sources */,
+				4D4817E31A80950200CFF47A /* Frameworks */,
+				4D4817E41A80950200CFF47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetWatchCameraObjC;
+			productName = PetWatchCameraObjC;
+			productReference = 4D4817E61A80950200CFF47A /* PetWatchCameraObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D4818041A80950300CFF47A /* PetWatchCameraObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4818121A80950300CFF47A /* Build configuration list for PBXNativeTarget "PetWatchCameraObjCTests" */;
+			buildPhases = (
+				4D4818011A80950300CFF47A /* Sources */,
+				4D4818021A80950300CFF47A /* Frameworks */,
+				4D4818031A80950300CFF47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D4818071A80950300CFF47A /* PBXTargetDependency */,
+			);
+			name = PetWatchCameraObjCTests;
+			productName = PetWatchCameraObjCTests;
+			productReference = 4D4818051A80950300CFF47A /* PetWatchCameraObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D4817DE1A80950200CFF47A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "UQ Times";
+				TargetAttributes = {
+					4D4817E51A80950200CFF47A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4D4818041A80950300CFF47A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4D4817E51A80950200CFF47A;
+					};
+				};
+			};
+			buildConfigurationList = 4D4817E11A80950200CFF47A /* Build configuration list for PBXProject "PetWatchCameraObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D4817DD1A80950200CFF47A;
+			productRefGroup = 4D4817E71A80950200CFF47A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D4817E51A80950200CFF47A /* PetWatchCameraObjC */,
+				4D4818041A80950300CFF47A /* PetWatchCameraObjCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D4817E41A80950200CFF47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4817FB1A80950300CFF47A /* Main.storyboard in Resources */,
+				4D4818001A80950300CFF47A /* LaunchScreen.xib in Resources */,
+				4D4817FD1A80950300CFF47A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4818031A80950300CFF47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D4817E21A80950200CFF47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4817F51A80950300CFF47A /* DataViewController.m in Sources */,
+				4D4817EF1A80950300CFF47A /* AppDelegate.m in Sources */,
+				4D4817F81A80950300CFF47A /* ModelController.m in Sources */,
+				4D4817EC1A80950300CFF47A /* main.m in Sources */,
+				4D4817F21A80950300CFF47A /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4818011A80950300CFF47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D48180C1A80950300CFF47A /* PetWatchCameraObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D4818071A80950300CFF47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D4817E51A80950200CFF47A /* PetWatchCameraObjC */;
+			targetProxy = 4D4818061A80950300CFF47A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D4817F91A80950300CFF47A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4817FA1A80950300CFF47A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D4817FE1A80950300CFF47A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4817FF1A80950300CFF47A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D48180D1A80950300CFF47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D48180E1A80950300CFF47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D4818101A80950300CFF47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PetWatchCameraObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D4818111A80950300CFF47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PetWatchCameraObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D4818131A80950300CFF47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetWatchCameraObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetWatchCameraObjC.app/PetWatchCameraObjC";
+			};
+			name = Debug;
+		};
+		4D4818141A80950300CFF47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetWatchCameraObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetWatchCameraObjC.app/PetWatchCameraObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D4817E11A80950200CFF47A /* Build configuration list for PBXProject "PetWatchCameraObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D48180D1A80950300CFF47A /* Debug */,
+				4D48180E1A80950300CFF47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D48180F1A80950300CFF47A /* Build configuration list for PBXNativeTarget "PetWatchCameraObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4818101A80950300CFF47A /* Debug */,
+				4D4818111A80950300CFF47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D4818121A80950300CFF47A /* Build configuration list for PBXNativeTarget "PetWatchCameraObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4818131A80950300CFF47A /* Debug */,
+				4D4818141A80950300CFF47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D4817DE1A80950200CFF47A /* Project object */;
+}
