@@ -99,7 +99,8 @@
         CFDictionaryRef metadataRef = CMGetAttachment(sampleBuffer, CFSTR("MetadataDictionay"), &attachmentMode);
         NSMutableDictionary *metadata = [NSMutableDictionary dictionaryWithDictionary:(NSDictionary *)CFBridgingRelease(metadataRef)];
         
-        [metadata setObject:[NSNumber numberWithInt:6] forKey:(NSString *)kCGImagePropertyOrientation];
+        [metadata setObject:[NSNumber numberWithInt:UIImageOrientationUp] forKey:(NSString *)kCGImagePropertyOrientation];
+        [metadata setObject:@"Test Message" forKey:(NSString *)kCGImagePropertyExifUserComment];
         
         NSData *jpgData = UIImageJPEGRepresentation(self.imageBuffer, 1.0f);
         
