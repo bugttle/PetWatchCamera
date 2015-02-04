@@ -20,6 +20,8 @@
 		4D4818191A8095F400CFF47A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4818181A8095F400CFF47A /* CoreMedia.framework */; };
 		4D48181B1A8095F900CFF47A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48181A1A8095F900CFF47A /* CoreVideo.framework */; };
 		4D48181E1A809D6A00CFF47A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48181D1A809D6A00CFF47A /* ImageIO.framework */; };
+		4D4818231A81AFB000CFF47A /* OpenCVTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D4818221A81AFB000CFF47A /* OpenCVTest.mm */; };
+		4D48182A1A81B1D200CFF47A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4818291A81B1D200CFF47A /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		4D4818181A8095F400CFF47A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4D48181A1A8095F900CFF47A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		4D48181D1A809D6A00CFF47A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4D4818221A81AFB000CFF47A /* OpenCVTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVTest.mm; sourceTree = "<group>"; };
+		4D4818241A81AFCF00CFF47A /* OpenCVTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVTest.h; sourceTree = "<group>"; };
+		4D4818291A81B1D200CFF47A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,7 @@
 				4D4818161A80951F00CFF47A /* AVFoundation.framework in Frameworks */,
 				4D4818191A8095F400CFF47A /* CoreMedia.framework in Frameworks */,
 				4D48181B1A8095F900CFF47A /* CoreVideo.framework in Frameworks */,
+				4D48182A1A81B1D200CFF47A /* opencv2.framework in Frameworks */,
 				4D48181E1A809D6A00CFF47A /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +89,7 @@
 			children = (
 				4D4817E81A80950200CFF47A /* PetWatchCameraObjC */,
 				4D48181C1A80960D00CFF47A /* Frameworks */,
+				4D48181F1A81AF4400CFF47A /* Vendor */,
 				4D4818081A80950300CFF47A /* PetWatchCameraObjCTests */,
 				4D4817E71A80950200CFF47A /* Products */,
 			);
@@ -106,6 +113,8 @@
 				4D4817F11A80950300CFF47A /* RootViewController.m */,
 				4D4817F31A80950300CFF47A /* DataViewController.h */,
 				4D4817F41A80950300CFF47A /* DataViewController.m */,
+				4D4818241A81AFCF00CFF47A /* OpenCVTest.h */,
+				4D4818221A81AFB000CFF47A /* OpenCVTest.mm */,
 				4D4817F61A80950300CFF47A /* ModelController.h */,
 				4D4817F71A80950300CFF47A /* ModelController.m */,
 				4D4817F91A80950300CFF47A /* Main.storyboard */,
@@ -145,12 +154,20 @@
 		4D48181C1A80960D00CFF47A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D48181D1A809D6A00CFF47A /* ImageIO.framework */,
 				4D4818151A80951F00CFF47A /* AVFoundation.framework */,
 				4D4818181A8095F400CFF47A /* CoreMedia.framework */,
 				4D48181A1A8095F900CFF47A /* CoreVideo.framework */,
+				4D48181D1A809D6A00CFF47A /* ImageIO.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D48181F1A81AF4400CFF47A /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4D4818291A81B1D200CFF47A /* opencv2.framework */,
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +274,7 @@
 				4D4817EF1A80950300CFF47A /* AppDelegate.m in Sources */,
 				4D4817F81A80950300CFF47A /* ModelController.m in Sources */,
 				4D4817EC1A80950300CFF47A /* main.m in Sources */,
+				4D4818231A81AFB000CFF47A /* OpenCVTest.mm in Sources */,
 				4D4817F21A80950300CFF47A /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +400,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor",
+				);
 				INFOPLIST_FILE = PetWatchCameraObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -393,6 +415,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor",
+				);
 				INFOPLIST_FILE = PetWatchCameraObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

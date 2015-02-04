@@ -7,7 +7,9 @@
 //
 
 #import "DataViewController.h"
+
 #import <ImageIO/ImageIO.h>
+#import "OpenCVTest.h"
 
 @interface DataViewController ()
 {
@@ -24,6 +26,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UIImage *image = [OpenCVTest check];
+    self.imageView.image = image;
+    return;
     exported = NO;
     
     [self initBuffer];
