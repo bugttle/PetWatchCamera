@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  PetWatchCameraObjC
 //
-//  Created by UQ Times on 2015/02/03.
-//  Copyright (c) 2015年 UQ Times. All rights reserved.
+//  Created by UQ Times on 2/13/15.
+//  Copyright (c) 2015 UQ Times. All rights reserved.
 //
 
 #import "AppDelegate.h"
+
+#import <DropboxSDK/DropboxSDK.h>
 
 @interface AppDelegate ()
 
@@ -17,7 +19,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    DBSession *dbSession = [[DBSession alloc] initWithAppKey:@"7v4qqerjtkmy11x" appSecret:@"koc2do0l6ss7faw" root:kDBRootAppFolder];
+    [DBSession setSharedSession:dbSession];
+    
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    if ([[DBSession sharedSession] handleOpenURL:url]) {
+        if ([[DBSession sharedSession] isLinked]) {
+            NSLog(@"App linked successfully!");
+        }
+        return YES;
+    }
+    return NO;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

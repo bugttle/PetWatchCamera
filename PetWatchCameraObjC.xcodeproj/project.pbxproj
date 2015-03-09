@@ -7,74 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D4817EC1A80950300CFF47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4817EB1A80950300CFF47A /* main.m */; };
-		4D4817EF1A80950300CFF47A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4817EE1A80950300CFF47A /* AppDelegate.m */; };
-		4D4817F21A80950300CFF47A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4817F11A80950300CFF47A /* RootViewController.m */; };
-		4D4817F51A80950300CFF47A /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4817F41A80950300CFF47A /* DataViewController.m */; };
-		4D4817F81A80950300CFF47A /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4817F71A80950300CFF47A /* ModelController.m */; };
-		4D4817FB1A80950300CFF47A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4817F91A80950300CFF47A /* Main.storyboard */; };
-		4D4817FD1A80950300CFF47A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4817FC1A80950300CFF47A /* Images.xcassets */; };
-		4D4818001A80950300CFF47A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4817FE1A80950300CFF47A /* LaunchScreen.xib */; };
-		4D48180C1A80950300CFF47A /* PetWatchCameraObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48180B1A80950300CFF47A /* PetWatchCameraObjCTests.m */; };
-		4D4818161A80951F00CFF47A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4818151A80951F00CFF47A /* AVFoundation.framework */; };
-		4D4818191A8095F400CFF47A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4818181A8095F400CFF47A /* CoreMedia.framework */; };
-		4D48181B1A8095F900CFF47A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48181A1A8095F900CFF47A /* CoreVideo.framework */; };
-		4D48181E1A809D6A00CFF47A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D48181D1A809D6A00CFF47A /* ImageIO.framework */; };
-		4D4818231A81AFB000CFF47A /* OpenCVTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D4818221A81AFB000CFF47A /* OpenCVTest.mm */; };
-		4D48182A1A81B1D200CFF47A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4818291A81B1D200CFF47A /* opencv2.framework */; };
+		CE03CDDA1A8DE7C800976E56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE03CDD91A8DE7C800976E56 /* main.m */; };
+		CE03CDDD1A8DE7C800976E56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE03CDDC1A8DE7C800976E56 /* AppDelegate.m */; };
+		CE03CDE01A8DE7C800976E56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE03CDDF1A8DE7C800976E56 /* ViewController.m */; };
+		CE03CDE31A8DE7C800976E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE03CDE11A8DE7C800976E56 /* Main.storyboard */; };
+		CE03CDE51A8DE7C800976E56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE03CDE41A8DE7C800976E56 /* Images.xcassets */; };
+		CE03CDE81A8DE7C800976E56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE03CDE61A8DE7C800976E56 /* LaunchScreen.xib */; };
+		CE03CDF41A8DE7C800976E56 /* PetWatchCameraObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE03CDF31A8DE7C800976E56 /* PetWatchCameraObjCTests.m */; };
+		CE03CDFE1A8DE80F00976E56 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03CDFD1A8DE80F00976E56 /* ImageIO.framework */; };
+		CE03CE001A8DE81500976E56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03CDFF1A8DE81500976E56 /* AVFoundation.framework */; };
+		CE03CE021A8DE81900976E56 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03CE011A8DE81900976E56 /* CoreMedia.framework */; };
+		CE03CE041A8DE81E00976E56 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03CE031A8DE81E00976E56 /* CoreVideo.framework */; };
+		CE03CE081A8DF48F00976E56 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03CE071A8DF48F00976E56 /* DropboxSDK.framework */; };
+		CE03CE0A1A90CFCF00976E56 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03CE091A90CFCF00976E56 /* Security.framework */; };
+		CE03CE0C1A90CFD900976E56 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03CE0B1A90CFD900976E56 /* QuartzCore.framework */; };
+		CE03CE0E1A922E5A00976E56 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03CE0D1A922E5A00976E56 /* opencv2.framework */; };
+		CE03CE111A922EA100976E56 /* OpenCVUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CE03CE0F1A922EA100976E56 /* OpenCVUtils.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4D4818061A80950300CFF47A /* PBXContainerItemProxy */ = {
+		CE03CDEE1A8DE7C800976E56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4D4817DE1A80950200CFF47A /* Project object */;
+			containerPortal = CE03CDCC1A8DE7C800976E56 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D4817E51A80950200CFF47A;
+			remoteGlobalIDString = CE03CDD31A8DE7C800976E56;
 			remoteInfo = PetWatchCameraObjC;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D4817E61A80950200CFF47A /* PetWatchCameraObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetWatchCameraObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D4817EA1A80950300CFF47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D4817EB1A80950300CFF47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D4817ED1A80950300CFF47A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4D4817EE1A80950300CFF47A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4D4817F01A80950300CFF47A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		4D4817F11A80950300CFF47A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		4D4817F31A80950300CFF47A /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		4D4817F41A80950300CFF47A /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		4D4817F61A80950300CFF47A /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		4D4817F71A80950300CFF47A /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
-		4D4817FA1A80950300CFF47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D4817FC1A80950300CFF47A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4D4817FF1A80950300CFF47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4D4818051A80950300CFF47A /* PetWatchCameraObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetWatchCameraObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D48180A1A80950300CFF47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D48180B1A80950300CFF47A /* PetWatchCameraObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetWatchCameraObjCTests.m; sourceTree = "<group>"; };
-		4D4818151A80951F00CFF47A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		4D4818181A8095F400CFF47A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		4D48181A1A8095F900CFF47A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		4D48181D1A809D6A00CFF47A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		4D4818221A81AFB000CFF47A /* OpenCVTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVTest.mm; sourceTree = "<group>"; };
-		4D4818241A81AFCF00CFF47A /* OpenCVTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVTest.h; sourceTree = "<group>"; };
-		4D4818291A81B1D200CFF47A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		CE03CDD41A8DE7C800976E56 /* PetWatchCameraObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetWatchCameraObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE03CDD81A8DE7C800976E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE03CDD91A8DE7C800976E56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE03CDDB1A8DE7C800976E56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE03CDDC1A8DE7C800976E56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE03CDDE1A8DE7C800976E56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE03CDDF1A8DE7C800976E56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE03CDE21A8DE7C800976E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE03CDE41A8DE7C800976E56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE03CDE71A8DE7C800976E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE03CDED1A8DE7C800976E56 /* PetWatchCameraObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetWatchCameraObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE03CDF21A8DE7C800976E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE03CDF31A8DE7C800976E56 /* PetWatchCameraObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetWatchCameraObjCTests.m; sourceTree = "<group>"; };
+		CE03CDFD1A8DE80F00976E56 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		CE03CDFF1A8DE81500976E56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE03CE011A8DE81900976E56 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CE03CE031A8DE81E00976E56 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CE03CE071A8DF48F00976E56 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		CE03CE091A90CFCF00976E56 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CE03CE0B1A90CFD900976E56 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE03CE0D1A922E5A00976E56 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		CE03CE0F1A922EA100976E56 /* OpenCVUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVUtils.mm; sourceTree = "<group>"; };
+		CE03CE101A922EA100976E56 /* OpenCVUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D4817E31A80950200CFF47A /* Frameworks */ = {
+		CE03CDD11A8DE7C800976E56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D4818161A80951F00CFF47A /* AVFoundation.framework in Frameworks */,
-				4D4818191A8095F400CFF47A /* CoreMedia.framework in Frameworks */,
-				4D48181B1A8095F900CFF47A /* CoreVideo.framework in Frameworks */,
-				4D48182A1A81B1D200CFF47A /* opencv2.framework in Frameworks */,
-				4D48181E1A809D6A00CFF47A /* ImageIO.framework in Frameworks */,
+				CE03CE0C1A90CFD900976E56 /* QuartzCore.framework in Frameworks */,
+				CE03CE0A1A90CFCF00976E56 /* Security.framework in Frameworks */,
+				CE03CE0E1A922E5A00976E56 /* opencv2.framework in Frameworks */,
+				CE03CE041A8DE81E00976E56 /* CoreVideo.framework in Frameworks */,
+				CE03CE021A8DE81900976E56 /* CoreMedia.framework in Frameworks */,
+				CE03CE001A8DE81500976E56 /* AVFoundation.framework in Frameworks */,
+				CE03CDFE1A8DE80F00976E56 /* ImageIO.framework in Frameworks */,
+				CE03CE081A8DF48F00976E56 /* DropboxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D4818021A80950300CFF47A /* Frameworks */ = {
+		CE03CDEA1A8DE7C800976E56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,88 +87,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D4817DD1A80950200CFF47A = {
+		CE03CDCB1A8DE7C800976E56 = {
 			isa = PBXGroup;
 			children = (
-				4D4817E81A80950200CFF47A /* PetWatchCameraObjC */,
-				4D48181C1A80960D00CFF47A /* Frameworks */,
-				4D48181F1A81AF4400CFF47A /* Vendor */,
-				4D4818081A80950300CFF47A /* PetWatchCameraObjCTests */,
-				4D4817E71A80950200CFF47A /* Products */,
+				CE03CDD61A8DE7C800976E56 /* PetWatchCameraObjC */,
+				CE03CE051A8DE82600976E56 /* Frameworks */,
+				CE03CDF01A8DE7C800976E56 /* PetWatchCameraObjCTests */,
+				CE03CE061A8DF48F00976E56 /* Vendor */,
+				CE03CDD51A8DE7C800976E56 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4D4817E71A80950200CFF47A /* Products */ = {
+		CE03CDD51A8DE7C800976E56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D4817E61A80950200CFF47A /* PetWatchCameraObjC.app */,
-				4D4818051A80950300CFF47A /* PetWatchCameraObjCTests.xctest */,
+				CE03CDD41A8DE7C800976E56 /* PetWatchCameraObjC.app */,
+				CE03CDED1A8DE7C800976E56 /* PetWatchCameraObjCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D4817E81A80950200CFF47A /* PetWatchCameraObjC */ = {
+		CE03CDD61A8DE7C800976E56 /* PetWatchCameraObjC */ = {
 			isa = PBXGroup;
 			children = (
-				4D4817ED1A80950300CFF47A /* AppDelegate.h */,
-				4D4817EE1A80950300CFF47A /* AppDelegate.m */,
-				4D4817F01A80950300CFF47A /* RootViewController.h */,
-				4D4817F11A80950300CFF47A /* RootViewController.m */,
-				4D4817F31A80950300CFF47A /* DataViewController.h */,
-				4D4817F41A80950300CFF47A /* DataViewController.m */,
-				4D4818241A81AFCF00CFF47A /* OpenCVTest.h */,
-				4D4818221A81AFB000CFF47A /* OpenCVTest.mm */,
-				4D4817F61A80950300CFF47A /* ModelController.h */,
-				4D4817F71A80950300CFF47A /* ModelController.m */,
-				4D4817F91A80950300CFF47A /* Main.storyboard */,
-				4D4817FC1A80950300CFF47A /* Images.xcassets */,
-				4D4817FE1A80950300CFF47A /* LaunchScreen.xib */,
-				4D4817E91A80950300CFF47A /* Supporting Files */,
+				CE03CDDB1A8DE7C800976E56 /* AppDelegate.h */,
+				CE03CDDC1A8DE7C800976E56 /* AppDelegate.m */,
+				CE03CDDE1A8DE7C800976E56 /* ViewController.h */,
+				CE03CDDF1A8DE7C800976E56 /* ViewController.m */,
+				CE03CE101A922EA100976E56 /* OpenCVUtils.h */,
+				CE03CE0F1A922EA100976E56 /* OpenCVUtils.mm */,
+				CE03CDE11A8DE7C800976E56 /* Main.storyboard */,
+				CE03CDE41A8DE7C800976E56 /* Images.xcassets */,
+				CE03CDE61A8DE7C800976E56 /* LaunchScreen.xib */,
+				CE03CDD71A8DE7C800976E56 /* Supporting Files */,
 			);
 			path = PetWatchCameraObjC;
 			sourceTree = "<group>";
 		};
-		4D4817E91A80950300CFF47A /* Supporting Files */ = {
+		CE03CDD71A8DE7C800976E56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D4817EA1A80950300CFF47A /* Info.plist */,
-				4D4817EB1A80950300CFF47A /* main.m */,
+				CE03CDD81A8DE7C800976E56 /* Info.plist */,
+				CE03CDD91A8DE7C800976E56 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4D4818081A80950300CFF47A /* PetWatchCameraObjCTests */ = {
+		CE03CDF01A8DE7C800976E56 /* PetWatchCameraObjCTests */ = {
 			isa = PBXGroup;
 			children = (
-				4D48180B1A80950300CFF47A /* PetWatchCameraObjCTests.m */,
-				4D4818091A80950300CFF47A /* Supporting Files */,
+				CE03CDF31A8DE7C800976E56 /* PetWatchCameraObjCTests.m */,
+				CE03CDF11A8DE7C800976E56 /* Supporting Files */,
 			);
 			path = PetWatchCameraObjCTests;
 			sourceTree = "<group>";
 		};
-		4D4818091A80950300CFF47A /* Supporting Files */ = {
+		CE03CDF11A8DE7C800976E56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D48180A1A80950300CFF47A /* Info.plist */,
+				CE03CDF21A8DE7C800976E56 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4D48181C1A80960D00CFF47A /* Frameworks */ = {
+		CE03CE051A8DE82600976E56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D4818151A80951F00CFF47A /* AVFoundation.framework */,
-				4D4818181A8095F400CFF47A /* CoreMedia.framework */,
-				4D48181A1A8095F900CFF47A /* CoreVideo.framework */,
-				4D48181D1A809D6A00CFF47A /* ImageIO.framework */,
+				CE03CE0B1A90CFD900976E56 /* QuartzCore.framework */,
+				CE03CE091A90CFCF00976E56 /* Security.framework */,
+				CE03CE031A8DE81E00976E56 /* CoreVideo.framework */,
+				CE03CE011A8DE81900976E56 /* CoreMedia.framework */,
+				CE03CDFF1A8DE81500976E56 /* AVFoundation.framework */,
+				CE03CDFD1A8DE80F00976E56 /* ImageIO.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4D48181F1A81AF4400CFF47A /* Vendor */ = {
+		CE03CE061A8DF48F00976E56 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				4D4818291A81B1D200CFF47A /* opencv2.framework */,
+				CE03CE071A8DF48F00976E56 /* DropboxSDK.framework */,
+				CE03CE0D1A922E5A00976E56 /* opencv2.framework */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -173,13 +175,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D4817E51A80950200CFF47A /* PetWatchCameraObjC */ = {
+		CE03CDD31A8DE7C800976E56 /* PetWatchCameraObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D48180F1A80950300CFF47A /* Build configuration list for PBXNativeTarget "PetWatchCameraObjC" */;
+			buildConfigurationList = CE03CDF71A8DE7C800976E56 /* Build configuration list for PBXNativeTarget "PetWatchCameraObjC" */;
 			buildPhases = (
-				4D4817E21A80950200CFF47A /* Sources */,
-				4D4817E31A80950200CFF47A /* Frameworks */,
-				4D4817E41A80950200CFF47A /* Resources */,
+				CE03CDD01A8DE7C800976E56 /* Sources */,
+				CE03CDD11A8DE7C800976E56 /* Frameworks */,
+				CE03CDD21A8DE7C800976E56 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -187,46 +189,46 @@
 			);
 			name = PetWatchCameraObjC;
 			productName = PetWatchCameraObjC;
-			productReference = 4D4817E61A80950200CFF47A /* PetWatchCameraObjC.app */;
+			productReference = CE03CDD41A8DE7C800976E56 /* PetWatchCameraObjC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4D4818041A80950300CFF47A /* PetWatchCameraObjCTests */ = {
+		CE03CDEC1A8DE7C800976E56 /* PetWatchCameraObjCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D4818121A80950300CFF47A /* Build configuration list for PBXNativeTarget "PetWatchCameraObjCTests" */;
+			buildConfigurationList = CE03CDFA1A8DE7C800976E56 /* Build configuration list for PBXNativeTarget "PetWatchCameraObjCTests" */;
 			buildPhases = (
-				4D4818011A80950300CFF47A /* Sources */,
-				4D4818021A80950300CFF47A /* Frameworks */,
-				4D4818031A80950300CFF47A /* Resources */,
+				CE03CDE91A8DE7C800976E56 /* Sources */,
+				CE03CDEA1A8DE7C800976E56 /* Frameworks */,
+				CE03CDEB1A8DE7C800976E56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4D4818071A80950300CFF47A /* PBXTargetDependency */,
+				CE03CDEF1A8DE7C800976E56 /* PBXTargetDependency */,
 			);
 			name = PetWatchCameraObjCTests;
 			productName = PetWatchCameraObjCTests;
-			productReference = 4D4818051A80950300CFF47A /* PetWatchCameraObjCTests.xctest */;
+			productReference = CE03CDED1A8DE7C800976E56 /* PetWatchCameraObjCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4D4817DE1A80950200CFF47A /* Project object */ = {
+		CE03CDCC1A8DE7C800976E56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "UQ Times";
 				TargetAttributes = {
-					4D4817E51A80950200CFF47A = {
+					CE03CDD31A8DE7C800976E56 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					4D4818041A80950300CFF47A = {
+					CE03CDEC1A8DE7C800976E56 = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 4D4817E51A80950200CFF47A;
+						TestTargetID = CE03CDD31A8DE7C800976E56;
 					};
 				};
 			};
-			buildConfigurationList = 4D4817E11A80950200CFF47A /* Build configuration list for PBXProject "PetWatchCameraObjC" */;
+			buildConfigurationList = CE03CDCF1A8DE7C800976E56 /* Build configuration list for PBXProject "PetWatchCameraObjC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,29 +236,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 4D4817DD1A80950200CFF47A;
-			productRefGroup = 4D4817E71A80950200CFF47A /* Products */;
+			mainGroup = CE03CDCB1A8DE7C800976E56;
+			productRefGroup = CE03CDD51A8DE7C800976E56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D4817E51A80950200CFF47A /* PetWatchCameraObjC */,
-				4D4818041A80950300CFF47A /* PetWatchCameraObjCTests */,
+				CE03CDD31A8DE7C800976E56 /* PetWatchCameraObjC */,
+				CE03CDEC1A8DE7C800976E56 /* PetWatchCameraObjCTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4D4817E41A80950200CFF47A /* Resources */ = {
+		CE03CDD21A8DE7C800976E56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D4817FB1A80950300CFF47A /* Main.storyboard in Resources */,
-				4D4818001A80950300CFF47A /* LaunchScreen.xib in Resources */,
-				4D4817FD1A80950300CFF47A /* Images.xcassets in Resources */,
+				CE03CDE31A8DE7C800976E56 /* Main.storyboard in Resources */,
+				CE03CDE81A8DE7C800976E56 /* LaunchScreen.xib in Resources */,
+				CE03CDE51A8DE7C800976E56 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D4818031A80950300CFF47A /* Resources */ = {
+		CE03CDEB1A8DE7C800976E56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,50 +268,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D4817E21A80950200CFF47A /* Sources */ = {
+		CE03CDD01A8DE7C800976E56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D4817F51A80950300CFF47A /* DataViewController.m in Sources */,
-				4D4817EF1A80950300CFF47A /* AppDelegate.m in Sources */,
-				4D4817F81A80950300CFF47A /* ModelController.m in Sources */,
-				4D4817EC1A80950300CFF47A /* main.m in Sources */,
-				4D4818231A81AFB000CFF47A /* OpenCVTest.mm in Sources */,
-				4D4817F21A80950300CFF47A /* RootViewController.m in Sources */,
+				CE03CE111A922EA100976E56 /* OpenCVUtils.mm in Sources */,
+				CE03CDE01A8DE7C800976E56 /* ViewController.m in Sources */,
+				CE03CDDD1A8DE7C800976E56 /* AppDelegate.m in Sources */,
+				CE03CDDA1A8DE7C800976E56 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D4818011A80950300CFF47A /* Sources */ = {
+		CE03CDE91A8DE7C800976E56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D48180C1A80950300CFF47A /* PetWatchCameraObjCTests.m in Sources */,
+				CE03CDF41A8DE7C800976E56 /* PetWatchCameraObjCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4D4818071A80950300CFF47A /* PBXTargetDependency */ = {
+		CE03CDEF1A8DE7C800976E56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4D4817E51A80950200CFF47A /* PetWatchCameraObjC */;
-			targetProxy = 4D4818061A80950300CFF47A /* PBXContainerItemProxy */;
+			target = CE03CDD31A8DE7C800976E56 /* PetWatchCameraObjC */;
+			targetProxy = CE03CDEE1A8DE7C800976E56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4D4817F91A80950300CFF47A /* Main.storyboard */ = {
+		CE03CDE11A8DE7C800976E56 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4D4817FA1A80950300CFF47A /* Base */,
+				CE03CDE21A8DE7C800976E56 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4D4817FE1A80950300CFF47A /* LaunchScreen.xib */ = {
+		CE03CDE61A8DE7C800976E56 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4D4817FF1A80950300CFF47A /* Base */,
+				CE03CDE71A8DE7C800976E56 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -317,7 +317,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4D48180D1A80950300CFF47A /* Debug */ = {
+		CE03CDF51A8DE7C800976E56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +359,7 @@
 			};
 			name = Debug;
 		};
-		4D48180E1A80950300CFF47A /* Release */ = {
+		CE03CDF61A8DE7C800976E56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,23 +395,22 @@
 			};
 			name = Release;
 		};
-		4D4818101A80950300CFF47A /* Debug */ = {
+		CE03CDF81A8DE7C800976E56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Vendor",
 				);
 				INFOPLIST_FILE = PetWatchCameraObjC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		4D4818111A80950300CFF47A /* Release */ = {
+		CE03CDF91A8DE7C800976E56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -420,13 +419,13 @@
 					"$(PROJECT_DIR)/Vendor",
 				);
 				INFOPLIST_FILE = PetWatchCameraObjC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		4D4818131A80950300CFF47A /* Debug */ = {
+		CE03CDFB1A8DE7C800976E56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -445,7 +444,7 @@
 			};
 			name = Debug;
 		};
-		4D4818141A80950300CFF47A /* Release */ = {
+		CE03CDFC1A8DE7C800976E56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -463,32 +462,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D4817E11A80950200CFF47A /* Build configuration list for PBXProject "PetWatchCameraObjC" */ = {
+		CE03CDCF1A8DE7C800976E56 /* Build configuration list for PBXProject "PetWatchCameraObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D48180D1A80950300CFF47A /* Debug */,
-				4D48180E1A80950300CFF47A /* Release */,
+				CE03CDF51A8DE7C800976E56 /* Debug */,
+				CE03CDF61A8DE7C800976E56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D48180F1A80950300CFF47A /* Build configuration list for PBXNativeTarget "PetWatchCameraObjC" */ = {
+		CE03CDF71A8DE7C800976E56 /* Build configuration list for PBXNativeTarget "PetWatchCameraObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D4818101A80950300CFF47A /* Debug */,
-				4D4818111A80950300CFF47A /* Release */,
+				CE03CDF81A8DE7C800976E56 /* Debug */,
+				CE03CDF91A8DE7C800976E56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		4D4818121A80950300CFF47A /* Build configuration list for PBXNativeTarget "PetWatchCameraObjCTests" */ = {
+		CE03CDFA1A8DE7C800976E56 /* Build configuration list for PBXNativeTarget "PetWatchCameraObjCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D4818131A80950300CFF47A /* Debug */,
-				4D4818141A80950300CFF47A /* Release */,
+				CE03CDFB1A8DE7C800976E56 /* Debug */,
+				CE03CDFC1A8DE7C800976E56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4D4817DE1A80950200CFF47A /* Project object */;
+	rootObject = CE03CDCC1A8DE7C800976E56 /* Project object */;
 }
